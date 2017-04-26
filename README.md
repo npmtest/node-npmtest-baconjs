@@ -1,6 +1,6 @@
 # npmtest-baconjs
 
-#### test coverage for  [baconjs (v0.7.93)](https://github.com/baconjs/bacon.js)  [![npm package](https://img.shields.io/npm/v/npmtest-baconjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-baconjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-baconjs.svg)](https://travis-ci.org/npmtest/node-npmtest-baconjs)
+#### basic test coverage for  [baconjs (v0.7.93)](https://github.com/baconjs/bacon.js)  [![npm package](https://img.shields.io/npm/v/npmtest-baconjs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-baconjs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-baconjs.svg)](https://travis-ci.org/npmtest/node-npmtest-baconjs)
 
 #### A small functional reactive programming lib for JavaScript.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-baconjs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-baconjs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-baconjs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-baconjs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-baconjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-baconjs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-baconjs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-baconjs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-baconjs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-baconjs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-baconjs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-baconjs/build/coverage.html/index.html)
 
@@ -127,7 +127,8 @@
         "pre-publish": "grunt",
         "test": "./runtests"
     },
-    "version": "0.7.93"
+    "version": "0.7.93",
+    "bin": {}
 }
 ```
 
